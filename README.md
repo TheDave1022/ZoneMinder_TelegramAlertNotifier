@@ -58,8 +58,8 @@ $ mv ZoneMinder_TelegramAlertNotifier/* /root
 
 ### Make shell scripts executable
 ```
-$ chmod +x /root/zm_telegram_alert.sh
-$ chmod +x /root/zm_telegram_service.sh
+$ chmod +x zm_telegram_alert.sh
+$ chmod +x zm_telegram_service.sh
 ```
 
 ### Setup zm_telegram.service as a service
@@ -88,5 +88,5 @@ $ systemctl status zm_telegram.service
 
 ### To test triggering an alert. ex: $ ./root/zm_telegram_alert.sh 1
 ```
-$ ./root/zm_telegram_alert.sh CAMERA_ID
+$ ./zm_telegram_alert.sh CAMERA_ID
 ```
