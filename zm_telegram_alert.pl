@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 
-# 		David Fiorenza - Modified original file and added line 56
-# 		system("/root/zm_telegram_alert.sh $monitor_id &") ;
-#		https://github.com/TheDave1022/ZoneMinder_TelegramAlertNotifier
+# David Fiorenza - Modified original file and added line 56
+# system("/root/zm_telegram_alert.sh $monitor_id &") ;
 
 # While this script is running, it will print out the state of each alarm on the system.
 # This script is an example of calling external scripts in reaction to a
@@ -55,10 +54,7 @@ sub printState {
         switch ($state) {
                 case 0 { print "$time - $monitor_name:\t Idle!\n" }
                 case 1 { print "$time - $monitor_name:\t Prealarm!\n" }
-                case 2 {
-						print "$time - $monitor_name:\t Alarm!\n" ;
-						system("/root/zm_telegram_alert.sh $monitor_id &") ;
-				}
+                case 2 { print "$time - $monitor_name:\t Alarm!\n" ; system("/root/zm_telegram_alert.sh $monitor_id &") ; }
                 case 3 { print "$time - $monitor_name:\t Alert!\n" }
         }
 }
