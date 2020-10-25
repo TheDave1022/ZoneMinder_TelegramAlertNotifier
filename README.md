@@ -44,7 +44,10 @@ $ telegram-notify --text "test"
 ```
 
 ### Place zm_telegram_alert.pl, zm_telegram_alert.sh, and zm_telegram_service.sh in /root
-Use SCP or paste the contents
+```
+$ git clone https://github.com/TheDave1022/ZoneMinder_TelegramAlertNotifier.git
+$ mv ZoneMinder_TelegramAlertNotifier/* /root
+```
 
 ### Make shell scripts executable
 ```
