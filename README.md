@@ -9,6 +9,11 @@
 - Person detection notifications requires [zmeventnotification](https://github.com/pliablepixels/zmeventnotification). 
 - jq is required to process the json for person detection
 
+### Go to /root directory
+```
+cd /root
+```
+
 ### Install requirements if you don't have them
 ```
 $ apt-get install curl git jq
