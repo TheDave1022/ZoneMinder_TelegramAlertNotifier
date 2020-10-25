@@ -7,6 +7,7 @@
 - This will notify every 5 seconds while there is an alarm. Modify to your needs. If you want just a single notification, you can send the alarm.jpg file over instead of the -capture.jpg and set the time to be something extremely high.
 - I couldn't get my script running from crontab, so I had to go the service route.
 - Person detection notifications requires [zmeventnotification](https://github.com/pliablepixels/zmeventnotification). 
+- jq is required to process the json for person detection
 
 ### Install requirements if you don't have them
 ```
