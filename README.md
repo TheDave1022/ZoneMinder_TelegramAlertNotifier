@@ -86,7 +86,7 @@ You can force them through ZM or go stand in front of your camera
 $ systemctl status zm_telegram.service
 ```
 
-### To test triggering an alert. ex: $ ./root/zm_telegram_alert.sh 1
+### To test triggering an alert. ex: $ ./zm_telegram_alert.sh 1
 ```
 $ ./zm_telegram_alert.sh CAMERA_ID
 ```
