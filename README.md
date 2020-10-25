@@ -83,5 +83,5 @@ $ ./root/zm_telegram_alert.sh CAMERA_ID
 
 ### Resources Used:
 [Telegram Notify](https://github.com/samsulmaarif/telegram-notify) - Used  
-[ZM Alarm pl script](https://github.com/ZoneMinder/zoneminder/blob/master/utils/zm-alarm.pl) - Modified File
+[ZM Alarm pl script](https://github.com/ZoneMinder/zoneminder/blob/master/utils/zm-alarm.pl) - Modified File 
 [Service Creation](https://www.internauta37.altervista.org/en/zmauto-bash-script-totally-automate-zoneminder) - Referenced
