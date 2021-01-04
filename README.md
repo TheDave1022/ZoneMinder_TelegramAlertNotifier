@@ -63,6 +63,7 @@ $ chmod +x zm_telegram_service.sh
 ```
 
 ### Setup zm_telegram.service as a service
+# Make sure zm_telegram.service file is located in /etc/systemd/system
 ```
 $ systemctl daemon-reload
 $ systemctl enable zm_telegram.service
