@@ -1,0 +1,10 @@
+[Unit]
+After=network.target mysql.service zoneminder.service
+Wants=mysql.service zoneminder.service
+
+[Service]
+Type=simple
+ExecStart=/root/zm_telegram_service.sh
+
+[Install]
+WantedBy=multi-user.target
